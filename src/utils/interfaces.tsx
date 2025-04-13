@@ -1,3 +1,7 @@
+export interface AppProps {
+  children: React.ReactNode;
+}
+
 export interface InputProps {
   placeholder?: string;
   type?: string;
